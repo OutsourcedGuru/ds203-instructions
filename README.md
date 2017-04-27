@@ -36,7 +36,7 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 * ASIN: B0057M7YLE
 
 ## Existing Documentation
-[From Sainsmart.com's website (PDF, 13 pages)](http://www.sainsmart.com/zen/documents/20-010-201/DSO203Manual.pdf)
+[From Sainsmart.com's website (PDF, 13 pages)](http://www.sainsmart.com/zen/documents/20-010-201/DSO203Manual.pdf)<br/>
 [From ElecHouse.com's website (PDF, 29 pages)](http://www.elechouse.com/elechouse/images/product/DS203/DS203_Manual.pdf)
 
 ## Interface and Controls
