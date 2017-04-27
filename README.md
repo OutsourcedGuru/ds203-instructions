@@ -1,6 +1,8 @@
 # ds203-instructions
 Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (the unauthorized manual)
 
+![ds203](https://cloud.githubusercontent.com/assets/15971213/25502069/f7bf9d02-2b49-11e7-9c96-87c461e45e51.png)
+
 ## Features
 * Battery-powered, portable, pocket-sized
 * Lightweight (2 ounces)
