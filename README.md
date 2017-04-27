@@ -65,6 +65,7 @@ The following controls are broken down by side of the oscilloscope, as held vert
 The following is a list of menus seen on the LCD screen during operation after the initial splashscreen.
 
 #### Top-most menu
+Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently. For the top two menus, what is seen in adjacent cells are connected to each other. In other words, "1V" in my case in the second menu row refers to the setting for "AC" which corresponds to the setup for analog CH A. The same is true for "AC" + "1V" for CH B. The same is true for digital CH C which I am currently not displaying ("--"), for example. The last three menu items on the top menu correspond to the last menu item graphic on the second top menu since they go together.
 * RUN
 * AC
 * AC
@@ -76,6 +77,7 @@ The following is a list of menus seen on the LCD screen during operation after t
 * DUT 50%
 
 #### Second from top menu
+Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
 * Battery charge indicator
 * 1V
 * 1V
@@ -85,6 +87,7 @@ The following is a list of menus seen on the LCD screen during operation after t
 * Small graphic of current selection of stored waveform
 
 #### Right-side menu
+Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
 * Unknown
 * THR
 * V1
@@ -98,7 +101,7 @@ The following is a list of menus seen on the LCD screen during operation after t
 * EXT
 
 #### Bottom display-only data
-The values seen here are not menu items and may not be selected. These are usually the result of setting up on-screen V1/V2/T1/T2 references to measure signals.
-* dV
-* dT
-* Vbt 
+The values seen here are not menu items and may not be selected. These are usually the result of setting up on-screen V1/V2/T1/T2 references to measure signals. Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
+* ΔV: +4.80V
+* ΔT: +133 µS
+* Vbt +4.15V 
