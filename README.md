@@ -24,7 +24,7 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 * Hardware trigger type: edge
 * Trigger soure: CH1/CH2/EXT
 * Signal generator: 10Hz to 1Mhz (square, sin, sawtooth, triangle) *Reported as 10-20K Hz in ElecHouse's manual.*
-* Auto measure: Vmax, Vmin, Vpp, Vavr, Vrms, Freq, Period, Pulse, Duty cycle, Vdc, Vbt, FPS
+* Auto measure: Vmax (maximum voltage), Vmin (minimum voltage), Vpp (Peak-to-peak voltage), Vavr, Vrms (Average value of voltage), Freq (signal frequency), Period, Pulse, Duty cycle, Vdc (direct current voltage), Vbt, FPS (frames Per Second)
 * Current measurement: Level, Voltage
 * Display modes: CH1, CH2, EXT, CH1 + CH2, CH1 - CH2, CH1 * CH2
 * Sampling mode: realtime
@@ -33,6 +33,10 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 * Dimensions: 98mm * 60mm * 14.5mm
 * Weight without battery: 80g (shipping weight 1.2lbs)
 * Processor: ARM cortex M3 (STM32VCT6) 32-bits with integrated FPGA and high-speed ADC
+* Temperature requirements: Operating (0°-50°C), Non-operating (-20° - +60°C)
+* Humidity requirements: Operating (10-60% RH), Non-operating (5-60 % RH)
+* Max transient-withstanding voltage: +/- 400V peak value
+* Max input voltage of logic probe: +/- 15V peak value
 * ASIN: B0057M7YLE
 
 ## Existing Documentation
@@ -40,7 +44,7 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 [From ElecHouse.com's website (PDF, 29 pages)](http://www.elechouse.com/elechouse/images/product/DS203/DS203_Manual.pdf)
 
 ## Interface and Controls
-The following controls are broken down by side of the oscilloscope, as held vertically to face the LCD screen. *Note that ElecHouse's button listing on their p5 incorrectly labels CH-A and CH-B locations.*
+The following controls are broken down by side of the oscilloscope, as held vertically to face the LCD screen. There appear to be short-press and long-press versions of the K1-K4 controls which perform different functions. *Note that ElecHouse's button listing on their p5 incorrectly labels CH-A and CH-B locations.*
 
 ### Top Controls
 * K1: Also known as PLAY or Run/Hold (this is a momentary-press toggle button)
@@ -119,25 +123,24 @@ The values seen here are not menu items and may not be selected. These are usual
 
 #### Popup Values Detail (from K3 toggle)
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
-* Vbt +3.98V  <span style="color:purple">The color associated with this is purple.</span>
-* Vbt +3.98V  <span style="color:purple">The color associated with this is purple.</span>
-* FRQ -----  <span style="color:purple">The color associated with this is purple.</span>
-* CIR 0.000nS  <span style="color:purple">The color associated with this is purple.</span>
-* DUT 0.000%  <span style="color:purple">The color associated with this is purple.</span>
-* TH 0.000nS  <span style="color:yellow">The color associated with this is cyan.</span>
-* TL 0.000nS  <span style="color:yellow">The color associated with this is yellow.</span>
-* Vpp +200 mV  <span style="color:cyan">The color associated with this is cyan.</span>
-* Vdc +160 mV  <span style="color:cyan">The color associated with this is cyan.</span>
+* Vbt +3.98V  (battery voltage) <span style="color:purple">The color associated with this is purple.</span>
+* FRQ -----  (signal frequency) <span style="color:purple">The color associated with this is purple.</span>
+* CIR 0.000nS  (signal cycle) <span style="color:purple">The color associated with this is purple.</span>
+* DUT 0.000%  (duty factor) <span style="color:purple">The color associated with this is purple.</span>
+* TH 0.000nS  (Monocycle high-level time) <span style="color:yellow">The color associated with this is cyan.</span>
+* TL 0.000nS  (Monocycle low-level time) <span style="color:yellow">The color associated with this is yellow.</span>
+* Vpp +200 mV  (peak-to-peak voltage) <span style="color:cyan">The color associated with this is cyan.</span>
+* Vdc +160 mV  (direct current voltage) <span style="color:cyan">The color associated with this is cyan.</span>
 
 #### Popup Menu (from K2 toggle)
-* Save Param
+* Save Param (Use NAV-B to select this option and then PUSH NAV-A to perform this function)
 * Save Dat
 * Save Buf
 * Save Bmp
 * Save Csv
 * Load Dat
 * Load Buf
-* BackLight
-* Buzzer
-* Standby
+* BackLight (Use NAV-B to select this option then left/right on NAV-A to change)
+* Buzzer (Volume control: Use NAV-B to select this option then left/right on NAV-A to change)
+* Standby (Minutes until screen is blacked, similar selection as above)
 * Calibrat
