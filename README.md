@@ -42,7 +42,7 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 ## Interface and Controls
 The following controls are broken down by side of the oscilloscope, as held vertically to face the LCD screen. *Note that ElecHouse's button listing on their p5 incorrectly labels CH-A and CH-B locations.*
 
-### Top
+### Top Controls
 * K1: Also known as PLAY or Run/Hold
 * K2: Also known as STOP or Calibrate
 * K3: Also known as RECORD or Preset
@@ -50,12 +50,12 @@ The following controls are broken down by side of the oscilloscope, as held vert
 * NAV A: Also known as "-..v..+" or Navigator A
 * NAV B: Also known as "<..v..>" or Navigator B
 
-### Left
+### Left Inputs and Ouput
 * WAVE OUT: Signal generator output, mcx-style connector
 * CH B: Analog channel 2, mcx-style connector
 * CH A: Analog channel 1, mcx-style connector
 
-### Right
+### Right Inputs, USB and Control
 * CH C: Digital channel 3, mxc-style connector
 * CH D: Digital channel 4, mxc-style connector
 * USB port: Mini-USB style (rather than the slightly more popular micro-USB style) connector
@@ -66,12 +66,12 @@ The following is a list of menus seen on the LCD screen during operation after t
 
 #### Top-most menu
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently. For the top two menus, what is seen in adjacent cells are connected to each other. In other words, "1V" in my case in the second menu row refers to the setting for "AC" which corresponds to the setup for analog CH A. The same is true for "AC" + "1V" for CH B. The same is true for digital CH C which I am currently not displaying ("--"), for example. The last three menu items on the top menu correspond to the last menu item graphic on the second top menu since they go together.
-* RUN
-* AC
-* AC
-* CH(C)
-* CH(D)
-* AUTO
+* RUN  (This appears to be a status indicator when toggling between displaying an active/changing waveform and displaying a frozen/held waveform for the purpose of measurements.)
+* AC (This and the adjacent/lower cell control the analog CH-A input) <span style="color:cyan">The color associated with CH-A is cyan.</span>
+* AC (This and the adjacent/lower cell control the analog CH-B input)  <span style="color:yellow">The color associated with CH-B is yellow.</span>
+* CH(C) (This and the adjacent/lower cell control the digital CH-C input) <span style="color:purple">The color associated with CH-C is purple.</span>
+* CH(D) (This and the adjacent/lower cell control the digital CH-D input) <span style="color:green">The color associated with CH-D is green.</span>
+* AUTO (This appears to be the synchronous mode indicator and the adjacent/lower cell indicates the associated value.) <span style="color:brown">The color associated with synchronous mode is brown.</span>
 * Squ with a small graphic of two cycles of a square wave
 * 10KHz
 * DUT 50%
@@ -89,19 +89,19 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 #### Right-side menu
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
 * Unknown
-* THR
-* V1
-* V2
-* T1
-* T2
-* Y
-* X
-* T0
-* 4K
-* EXT
+* THR <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
+* V1 <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
+* V2 <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
+* T1 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* T2 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* Y <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
+* X <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* T0 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* 4K <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* EXT <span style="color:white">The color associated with EXT is white since this is otherwise unrelated to the other color codes seen.</span>
 
 #### Bottom display-only data
 The values seen here are not menu items and may not be selected. These are usually the result of setting up on-screen V1/V2/T1/T2 references to measure signals. Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
-* ΔV: +4.80V
-* ΔT: +133 µS
+* ΔV: +4.80V <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
+* ΔT: +133 µS <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
 * Vbt +4.15V 
