@@ -39,6 +39,9 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 * Max input voltage of logic probe: +/- 15V peak value
 * ASIN: B0057M7YLE
 
+## MCX-style probe connection
+![mcx](https://cloud.githubusercontent.com/assets/15971213/25506780/2fb8ba96-2b5d-11e7-94d8-7c496a05bf33.jpg)
+
 ## Existing Documentation
 [From Sainsmart.com's website (PDF, 13 pages)](http://www.sainsmart.com/zen/documents/20-010-201/DSO203Manual.pdf)<br/>
 [From ElecHouse.com's website (PDF, 29 pages)](http://www.elechouse.com/elechouse/images/product/DS203/DS203_Manual.pdf)
