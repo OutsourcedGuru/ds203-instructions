@@ -128,3 +128,16 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 * TL 0.000nS  <span style="color:yellow">The color associated with this is yellow.</span>
 * Vpp +200 mV  <span style="color:cyan">The color associated with this is cyan.</span>
 * Vdc +160 mV  <span style="color:cyan">The color associated with this is cyan.</span>
+
+#### Popup Menu (from K2 toggle)
+* Save Param
+* Save Dat
+* Save Buf
+* Save Bmp
+* Save Csv
+* Load Dat
+* Load Buf
+* BackLight
+* Buzzer
+* Standby
+* Calibrat
