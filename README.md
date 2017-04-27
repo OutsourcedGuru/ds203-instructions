@@ -23,7 +23,7 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 * Software trigger type: edge, pulse (auto, normal, single, scan, none)
 * Hardware trigger type: edge
 * Trigger soure: CH1/CH2/EXT
-* Signal generator: 10Hz to 1Mhz (square, sin, sawtooth, triangle) **Reported as 10-20K Hz in ElecHouse's manual**
+* Signal generator: 10Hz to 1Mhz (square, sin, sawtooth, triangle) *Reported as 10-20K Hz in ElecHouse's manua*
 * Auto measure: Vmax, Vmin, Vpp, Vavr, Vrms, Freq, Period, Pulse, Duty cycle, Vdc, Vbt, FPS
 * Current measurement: Level, Voltage
 * Display modes: CH1, CH2, EXT, CH1 + CH2, CH1 - CH2, CH1 * CH2
@@ -40,7 +40,7 @@ Instructions for using the SainSmart Mini DSO DS203 pocket-sized oscilloscope (t
 [From ElecHouse.com's website (PDF, 29 pages)](http://www.elechouse.com/elechouse/images/product/DS203/DS203_Manual.pdf)
 
 ## Interface and Controls
-The following controls are broken down by side of the oscilloscope, as held vertically to face the LCD screen. **Note that ElecHouse's button listing on their p5 incorrectly labels CH-A and CH-B locations**
+The following controls are broken down by side of the oscilloscope, as held vertically to face the LCD screen. *Note that ElecHouse's button listing on their p5 incorrectly labels CH-A and CH-B locations*
 
 ### Top
 * K1: Also known as PLAY or Run/Hold
