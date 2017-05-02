@@ -74,11 +74,11 @@ The following is a list of menus seen on the LCD screen during operation after t
 #### Top-most menu
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently. For the top two menus, what is seen in adjacent cells are connected to each other. In other words, "1V" in my case in the second menu row refers to the setting for "AC" which corresponds to the setup for analog CH-A. The same is true for "AC" + "1V" for CH-B. The same is true for digital CH-C which I am currently not displaying ("--"), for example. The last three menu items on the top menu correspond to the last menu item graphic on the second top menu since they go together.
 * RUN  (This appears to be a status indicator when toggling between displaying an active/changing waveform and displaying a frozen/held waveform for the purpose of measurements.)
-* AC (This and the adjacent/lower cell control the analog CH-A input, when toggled indicates DC; however, pressing down toggles to HIDE) <span style="color:cyan">The color associated with CH-A is cyan.</span>
-* AC (This and the adjacent/lower cell control the analog CH-B input, when toggled indicates DC; however, pressing down toggles to HIDE)  <span style="color:yellow">The color associated with CH-B is yellow.</span>
-* CH(C) (This and the adjacent/lower cell control the digital CH-C input) <span style="color:purple">The color associated with CH-C is purple.</span>
-* CH(D) (This and the adjacent/lower cell control the digital CH-D input but additionally shows modes A + B, A - B, C AND D, C OR D, REC A, REC B, REC C, REC D and hide CH-D) <span style="color:green">The color associated with CH-D is green.</span>
-* AUTO (This appears to be the synchronous mode indicator and the adjacent/lower cell indicates the associated value.) <span style="color:brown">The color associated with synchronous mode is brown.</span>  (If the trigger mode is turned on, then a horizontal orange line should be present which indicates that this is the threshold point for that trigger.)
+* AC (This and the adjacent/lower cell control the analog CH-A input, when toggled indicates DC; however, pressing down toggles to HIDE) The color associated with CH-A is cyan.
+* AC (This and the adjacent/lower cell control the analog CH-B input, when toggled indicates DC; however, pressing down toggles to HIDE)  The color associated with CH-B is yellow.
+* CH(C) (This and the adjacent/lower cell control the digital CH-C input) The color associated with CH-C is purple.
+* CH(D) (This and the adjacent/lower cell control the digital CH-D input but additionally shows modes A + B, A - B, C AND D, C OR D, REC A, REC B, REC C, REC D and hide CH-D) The color associated with CH-D is green.
+* AUTO (This appears to be the synchronous mode indicator and the adjacent/lower cell indicates the associated value.) The color associated with synchronous mode is brown.  (If the trigger mode is turned on, then a horizontal orange line should be present which indicates that this is the threshold point for that trigger.)
 * Squ with a small graphic of two cycles of a square wave (the signal generator's output waveform)
 * 10KHz (frequency of the signal generator's output waveform)
 * DUT 50% (duty cycle of the signal generator's output waveform)
@@ -96,29 +96,29 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 #### Right-side menu ("Menu Group 2")
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
 * Graphic indicating the current trigger style and channel (I've discovered that if you cycle through the options, it can trigger when the THR (threshold) value is passed by the signal as indicated by the color of this graphic.  In other words, choose the blue graphic with an arrow pointing at a down-going edge if you want the standard trigger mode for CH-A.)
-* THR <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span> (For the Raspberry Pi 3's output PINs this should reasonably be 50% of the 3V expected, say 1.5V or 2V perhaps to make things easier.)
-* V1 <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>  (Horizontal reference line suitable for measuring ΔV when used with V2.)
-* V2 <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
-* T1 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>  (Vertical reference line suitable for measuring ΔT when used with T2.)
-* T2 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
-* Y <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>  (Used to adjust the entire waveform(s) up and down on the screen above/below 0V.)
-* X <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
-* T0 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>  (Vertical reference line which indicates the Y-axis.)
-* 4K <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>  (Sampling amount, per-channel presumably.)
-* EXT <span style="color:white">The color associated with EXT is white since this is otherwise unrelated to the other color codes seen.</span>
+* THR The color associated with CH-A is cyan if it is currently selected. (For the Raspberry Pi 3's output PINs this should reasonably be 50% of the 3V expected, say 1.5V or 2V perhaps to make things easier.)
+* V1 The color associated with CH-A is cyan if it is currently selected.  (Horizontal reference line suitable for measuring ΔV when used with V2.)
+* V2 The color associated with CH-A is cyan if it is currently selected.
+* T1 The color associated with synchronous mode is brown since this is related.  (Vertical reference line suitable for measuring ΔT when used with T2.)
+* T2 The color associated with synchronous mode is brown since this is related.
+* Y The color associated with CH-A is cyan if it is currently selected.  (Used to adjust the entire waveform(s) up and down on the screen above/below 0V.)
+* X The color associated with synchronous mode is brown since this is related.
+* T0 The color associated with synchronous mode is brown since this is related.  (Vertical reference line which indicates the Y-axis.)
+* 4K The color associated with synchronous mode is brown since this is related.  (Sampling amount, per-channel presumably.)
+* EXT The color associated with EXT is white since this is otherwise unrelated to the other color codes seen.
 
 #### Bottom display-only data
 The values seen here are not menu items and may not be selected. These are usually the result of setting up on-screen V1/V2/T1/T2 references to measure signals. Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
-* ΔV: +4.80V <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
-* ΔT: +133 µS <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* ΔV: +4.80V The color associated with CH-A is cyan if it is currently selected.
+* ΔT: +133 µS The color associated with synchronous mode is brown since this is related.
 * Vbt +4.15V The internal battery voltage, as charged
 
 #### On-screen indicators and markers
 * T: Horizontal line for the trigger voltage associated with either CH-A or CH-B, depending upon its associated color
-* 1: The CH-A waveform, if shown  <span style="color:cyan">The color associated with CH-A is cyan.</span>
-* 2: The CH-B waveform, if shown  <span style="color:yellow">The color associated with CH-B is yellow.</span>
-* 3: The CH-C waveform, if shown  <span style="color:purple">The color associated with CH-C is purple.</span>
-* 4: The CH-D waveform, if shown  <span style="color:green">The color associated with CH-D is green.</span>
+* 1: The CH-A waveform, if shown.  The color associated with CH-A is cyan.
+* 2: The CH-B waveform, if shown.  The color associated with CH-B is yellow.
+* 3: The CH-C waveform, if shown.  The color associated with CH-C is purple.
+* 4: The CH-D waveform, if shown.  The color associated with CH-D is green.
 * Unmarked vertical line: The marker associated with the T1 reference, useful for measuring the ΔT of one cycle of the waveform when in the HOLD position, for example
 * Unmarked vertical line: The marker associated with the T2 reference, useful for measuring the ΔT of one cycle of the waveform when in the HOLD position, for example
 * Unmarked vertical line: The marker associated with the T0 reference
@@ -126,14 +126,14 @@ The values seen here are not menu items and may not be selected. These are usual
 
 #### Popup Values Detail (from K3 toggle)
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
-* Vbt +3.98V  (battery voltage) <span style="color:purple">The color associated with this is purple.</span>
-* FRQ -----  (signal frequency) <span style="color:purple">The color associated with this is purple.</span>
-* CIR 0.000nS  (signal cycle) <span style="color:purple">The color associated with this is purple.</span>
-* DUT 0.000%  (duty factor) <span style="color:purple">The color associated with this is purple.</span>
-* TH 0.000nS  (Monocycle high-level time) <span style="color:yellow">The color associated with this is cyan.</span>
-* TL 0.000nS  (Monocycle low-level time) <span style="color:yellow">The color associated with this is yellow.</span>
-* Vpp +200 mV  (peak-to-peak voltage) <span style="color:cyan">The color associated with this is cyan.</span>
-* Vdc +160 mV  (direct current voltage) <span style="color:cyan">The color associated with this is cyan.</span>
+* Vbt +3.98V  (battery voltage).  The color associated with this is purple.
+* FRQ -----  (signal frequency).  The color associated with this is purple.
+* CIR 0.000nS  (signal cycle).  The color associated with this is purple.
+* DUT 0.000%  (duty factor).  The color associated with this is purple.
+* TH 0.000nS  (Monocycle high-level time).  The color associated with this is cyan.
+* TL 0.000nS  (Monocycle low-level time).  The color associated with this is yellow.
+* Vpp +200 mV  (peak-to-peak voltage).  The color associated with this is cyan.
+* Vdc +160 mV  (direct current voltage).  The color associated with this is cyan.
 
 #### Popup Menu (from K2 toggle)
 * Save Param (Use NAV-B to select this option and then PUSH NAV-A to perform this function)
