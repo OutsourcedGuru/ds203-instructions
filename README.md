@@ -79,18 +79,18 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 * CH(C) (This and the adjacent/lower cell control the digital CH-C input) <span style="color:purple">The color associated with CH-C is purple.</span>
 * CH(D) (This and the adjacent/lower cell control the digital CH-D input but additionally shows modes A + B, A - B, C AND D, C OR D, REC A, REC B, REC C, REC D and hide CH-D) <span style="color:green">The color associated with CH-D is green.</span>
 * AUTO (This appears to be the synchronous mode indicator and the adjacent/lower cell indicates the associated value.) <span style="color:brown">The color associated with synchronous mode is brown.</span>  (If the trigger mode is turned on, then a horizontal orange line should be present which indicates that this is the threshold point for that trigger.)
-* Squ with a small graphic of two cycles of a square wave
-* 10KHz
-* DUT 50%
+* Squ with a small graphic of two cycles of a square wave (the signal generator's output waveform)
+* 10KHz (frequency of the signal generator's output waveform)
+* DUT 50% (duty cycle of the signal generator's output waveform)
 
 #### Second from top menu
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
 * Battery charge indicator
+* 1V (This sets the value of each grid line's vertical measurement for CH-A.  So a one-unit-high waveform in this case would be 1V.) 
 * 1V
-* 1V
+* -- (This indicates that CH-C is currently toggled OFF.)
 * --
-* --
-* 20µS
+* 20µS (This sets the value of each grid line's horizontal/time measurement for all channels.  So a square wave which occupies one square in the grid would be 20µS across in time in this case.)
 * Small graphic of current selection of stored waveform
 
 #### Right-side menu ("Menu Group 2")
