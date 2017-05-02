@@ -111,7 +111,7 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 The values seen here are not menu items and may not be selected. These are usually the result of setting up on-screen V1/V2/T1/T2 references to measure signals. Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
 * ΔV: +4.80V <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
 * ΔT: +133 µS <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
-* Vbt +4.15V 
+* Vbt +4.15V (The internal battery voltage, as charged)
 
 #### On-screen indicators and markers
 * T: Horizontal line for the trigger voltage associated with either CH-A or CH-B, depending upon its associated color
