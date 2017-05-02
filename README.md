@@ -78,7 +78,7 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 * AC (This and the adjacent/lower cell control the analog CH-B input, when toggled indicates DC; however, pressing down toggles to HIDE)  <span style="color:yellow">The color associated with CH-B is yellow.</span>
 * CH(C) (This and the adjacent/lower cell control the digital CH-C input) <span style="color:purple">The color associated with CH-C is purple.</span>
 * CH(D) (This and the adjacent/lower cell control the digital CH-D input but additionally shows modes A + B, A - B, C AND D, C OR D, REC A, REC B, REC C, REC D and hide CH-D) <span style="color:green">The color associated with CH-D is green.</span>
-* AUTO (This appears to be the synchronous mode indicator and the adjacent/lower cell indicates the associated value.) <span style="color:brown">The color associated with synchronous mode is brown.</span>
+* AUTO (This appears to be the synchronous mode indicator and the adjacent/lower cell indicates the associated value.) <span style="color:brown">The color associated with synchronous mode is brown.</span>  (If the trigger mode is turned on, then a horizontal orange line should be present which indicates that this is the threshold point for that trigger.)
 * Squ with a small graphic of two cycles of a square wave
 * 10KHz
 * DUT 50%
@@ -95,16 +95,16 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 
 #### Right-side menu ("Menu Group 2")
 Here, I just indicate what I'm seeing currently on my screen based upon the prior selections I made, noting that yours may show differently.
-* Unknown symbol
-* THR <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
-* V1 <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
+* Graphic indicating the current trigger style and channel (I've discovered that if you cycle through the options, it can trigger when the THR (threshold) value is passed by the signal as indicated by the color of this graphic.  In other words, choose the blue graphic with an arrow pointing at a down-going edge if you want the standard trigger mode for CH-A.)
+* THR <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span> (For the Raspberry Pi 3's output PINs this should reasonably be 50% of the 3V expected, say 1.5V or 2V perhaps to make things easier.)
+* V1 <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>  (Horizontal reference line suitable for measuring ΔV when used with V2.)
 * V2 <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
-* T1 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* T1 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>  (Vertical reference line suitable for measuring ΔT when used with T2.)
 * T2 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
-* Y <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>
+* Y <span style="color:cyan">The color associated with CH-A is cyan if it is currently selected.</span>  (Used to adjust the entire waveform(s) up and down on the screen above/below 0V.)
 * X <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
-* T0 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
-* 4K <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>
+* T0 <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>  (Vertical reference line which indicates the Y-axis.)
+* 4K <span style="color:brown">The color associated with synchronous mode is brown since this is related.</span>  (Sampling amount, per-channel presumably.)
 * EXT <span style="color:white">The color associated with EXT is white since this is otherwise unrelated to the other color codes seen.</span>
 
 #### Bottom display-only data
