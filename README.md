@@ -147,3 +147,9 @@ Here, I just indicate what I'm seeing currently on my screen based upon the prio
 * Buzzer (Volume control: Use NAV-B to select this option then left/right on NAV-A to change)
 * Standby (Minutes until screen is blacked, similar selection as above)
 * Calibrat
+
+
+|Donate||Cryptocurrency|
+|:-----:|---|:--------:|
+| ![eth-receive](https://user-images.githubusercontent.com/15971213/40564950-932d4d10-601f-11e8-90f0-459f8b32f01c.png) || ![btc-receive](https://user-images.githubusercontent.com/15971213/40564971-a2826002-601f-11e8-8d5e-eeb35ab53300.png) |
+|Ethereum||Bitcoin|
